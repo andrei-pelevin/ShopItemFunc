@@ -1,7 +1,7 @@
 import React from 'react';
 import './css/App.css';
 import './css/main.css';
-import ShopItemFunc from './ShopItemFunc';
+import ShopItemFunc from './Components/ShopItemFunc';
 
 const item = {
   brand: 'Tiger of Sweden',

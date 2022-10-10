@@ -1,6 +1,7 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
-export default function ShopItemFunc({ item }) {
+function ShopItemFunc({ item }) {
 
   return (
     <div className="main-content">
@@ -19,3 +20,10 @@ export default function ShopItemFunc({ item }) {
     </div>
   );
 }
+
+ShopItemFunc.propTypes = {
+  item: PropTypes.object
+}
+
+
+export default ShopItemFunc;
